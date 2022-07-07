@@ -1,0 +1,78 @@
+
+body{
+
+	overflow-x: hidden !important;
+}
+
+.h-edit{
+
+	height: 500px !important;
+}
+
+.bg-edit{
+
+background-image: url("../images/imagen12.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-color: rgba(0, 0, 0, .7);
+background-blend-mode: darken;
+
+
+}
+.line{
+
+	width: 100vw;
+	height: 30px;
+}
+
+.h-form{
+
+	height: 300px;
+}
+
+.border-edit{
+
+	outline: none;
+	border: 1px solid black;
+}
+
+.margin-edit{
+
+	margin-top: 15rem;
+
+
+}
+
+.margin-edit-footer{
+
+	margin-top: 4rem;	
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+
+#respuesta{ transition: opacity 1s ease-out, visibility 1s ease-out; }
+
+.off
+{
+	opacity: 0;
+	visibility: hidden;
+	
+	
+
+}
+
+.on
+{
+	opacity: 1;
+	visibility: visible;
+	
+}
